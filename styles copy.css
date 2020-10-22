@@ -1,0 +1,125 @@
+
+body {
+margin-top: 40px;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.site-header{
+margin-bottom: 22px;
+}
+
+.nav-item .nav-link {
+    font-size: 14px;
+    text-decoration: none;
+    color: #777;
+
+}
+
+.nav-item a:hover {
+    font-size: 14px;
+    text-decoration: none;
+    color: #ED564B;
+}
+
+
+.flexslider {
+    max-height: 550px;
+}
+
+.carousel-item:before{
+background-image: url("./starter-code/img/overlay.png");
+z-index:100;
+}
+
+h1 {
+font-size: 38;
+color: #000;
+font-weight: 800;
+line-height: 1.1;
+}
+
+
+.fwidget {
+    padding:40px;
+    height: 290px;
+    background-color:#ED564B;
+}
+
+
+.homewidget-card {
+    background-color: transparent; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body-homewidget {
+    text-align: center;
+    width:130%;
+}
+
+.card-text-homewidget {
+    margin-top:-18px;
+    font-family: 'Oxygen',sans-serif;
+    font-size: 14px;
+
+}
+
+
+.marketing-card {
+background-color: transparent;
+text-align: center;
+color: white;
+width: 600px;
+
+}
+
+.card-img-top {
+    border: 3px solid white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding:25px;
+}
+
+
+.card-img-top {
+    width: 300px;
+}
+
+.box-item {
+    margin-top: 30px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+h4 {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+h6 {
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+}
+
+.site-content .section-wide {
+    margin-top: 50px;
+
+}
+
+#bottom {
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}

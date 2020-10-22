@@ -1,0 +1,194 @@
+
+body {
+margin-top: 40px;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.site-header{
+margin-bottom: 22px;
+}
+
+.nav-item .nav-link {
+    font-size: 14px;
+    text-decoration: none;
+    color: #777;
+
+}
+
+.nav-item a:hover {
+    font-size: 14px;
+    text-decoration: none;
+    color: #ED564B;
+}
+
+
+.carousel-item:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('./starter-code/img/overlay.png');
+    
+  }
+
+.d-block w-100 {
+    filter: grayscale(100%);
+  }
+
+h1 {
+font-size: 38;
+color: #000;
+font-weight: 800;
+line-height: 1.1;
+}
+
+.fwidget {
+    padding:40px;
+    height: 290px;
+    background-color:#ED564B;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.card-body-homewidget {
+    text-align: center;
+}
+
+.card-text-homewidget {
+    font-family: 'Oxygen',sans-serif;
+    font-size: 14px;
+}
+
+.marketing-icon {
+    border: 3px solid white;
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.marketing-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-item {
+    margin-top: 30px;
+}
+
+.box-item-latestprojects {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-right: 30px;
+}
+.latest-article {
+padding: 20px;
+border: none;
+}
+
+.card-img-top {
+border-radius: none;
+}
+
+.first-line,
+.second-line {
+margin-top: 30px;
+}
+
+.card-text-article {
+    font: 8px;
+    color: black;
+}
+
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+h4 {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.card-text-article {
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 14px;
+    color: rgb(68, 66, 66);
+}
+
+.second-part {
+border: none;
+padding:4px;
+}
+
+.card-body {
+  padding: 5px;
+  padding-top: 15px;
+}
+
+h6 {
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+    color: #aaa;
+    padding-bottom: 20px;
+}
+
+h5 {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.carousel-h5 {
+    color: white;
+    font-size: 20px;
+    line-height: 140%;
+}
+.carousel-caption d-none d-md-block {
+    position: relative;
+    top: 40px;
+    margin-top: -80px;
+}
+.text-muted {
+    font-weight: 500;
+}
+
+#bottom {
+    padding: 20px 0px 40px 0px;
+    background: #3b3b3b;
+    border-top: 5px solid #ed564b;
+}
+
+
+.site-footer {
+    background-color: #292929;
+    color: white;
+    font-size: 10px;
+    padding: 20px;
+}
+
+.link-meta {
+    display: flex;
+    flex-direction: column;
+}
+
+.no-link {
+    text-decoration: none;
+    color:   #838080;
+    font-size: 14px;
+}
+
+.dotted {
+    border-top: 0.5px dashed  #838080;
+}
